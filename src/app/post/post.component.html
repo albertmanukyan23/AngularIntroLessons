@@ -1,0 +1,13 @@
+<!-- <p>{{title}}</p>
+<p>{{parentMessage}}</p>
+
+<app-postlist [messageForChild]="messageForChild"></app-postlist>
+
+
+<button  (click)="sendMessage()"></button> -->
+
+<ul>
+    <li *ngFor="let post of newArray">
+        {{post.postTitle}}
+    </li>
+</ul>
